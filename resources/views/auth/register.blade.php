@@ -39,7 +39,7 @@
                             <input type="password" name="password_confirmation" class="form-control input-lg" id="password_confirmation">
                         </div>
 
-                        <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                        <button type="submit" class="btn btn-default btn-lg">Register</button> or <a href="/auth/login">Sign In</a>
                     </form>
                 </div>
             </div>
