@@ -18,16 +18,16 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>OPIS Avg</th>
                                     <th>Freight</th>
                                     <th>Margin</th>
+                                    <th>Delivered Price</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>${{ $product->opis_avg }}</td>
                                     <td>${{ $product->freight }}</td>
                                     <td>${{ $product->margin }}</td>
+                                    <td>${{ $product->delivered_price }}</td>
                                 </tr>
                             </tbody>
                         </table>

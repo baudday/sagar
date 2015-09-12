@@ -51,9 +51,9 @@ class ImportData extends Command
 
             $product = Product::create([
                 'name' => $row[2],
-                'opis_avg' => $this->float($row[3]),
                 'freight' => $this->float($row[4]),
                 'margin' => $this->float($row[5]),
+                'delivered_price' => $this->float($row[6]),
                 'location_id' => $location->id
             ]);
 

@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->integer('location_id');
             $table->string('name');
-            $table->float('opis_avg');
+            $table->float('delivered_price');
             $table->float('freight');
             $table->float('margin');
             $table->timestamps();

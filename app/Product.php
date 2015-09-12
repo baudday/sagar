@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
 
-    protected $fillable = ['name', 'opis_avg', 'freight', 'margin', 'location_id'];
+    protected $fillable = ['name', 'freight', 'margin', 'delivered_price', 'location_id'];
 
     public function location()
     {
